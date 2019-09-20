@@ -34,10 +34,9 @@ fun main() {
             println("  NewLoss = $newLoss, BestLoss=$bestLoss")
         }
         else {
-//            print("No improvement   ")
+            // println("No improvement   ")
             centroids = prevCentroids
         }
-
     }
     println("Result: ")
     println(centroids)
